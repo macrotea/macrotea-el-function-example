@@ -1,0 +1,24 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd" version="2.0">
+	<tlib-version>1.0</tlib-version>
+	<uri>http://www.thunderfoxes.com/tablibs</uri>
+	<short-name>comm</short-name>  
+
+	<function>
+		<name>ftdt</name>
+		<function-class>com.thunderfox.iself.web.DatetimeFunction</function-class>
+		<function-signature>java.lang.String ftdt(java.util.Date)</function-signature>
+	</function>
+
+	<function>
+		<name>ftd</name>
+		<function-class>com.thunderfox.iself.web.DatetimeFunction</function-class>
+		<function-signature>java.lang.String ftd(java.util.Date)</function-signature>
+	</function>
+
+	<function>
+		<name>ftt</name>
+		<function-class>com.thunderfox.iself.web.DatetimeFunction</function-class>
+		<function-signature>java.lang.String ftt(java.util.Date)</function-signature>
+	</function>
+
+</taglib>  
