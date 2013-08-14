@@ -64,7 +64,8 @@ public class DatetimeFunction {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(DatetimeFunction.cut("我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国", 20));;
+		System.out.println(DatetimeFunction.cut("asdf", 20));;
+		System.out.println(DatetimeFunction.cut("我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国我爱你中国", 20));;
 		System.out.println(DatetimeFunction.ftdt(new Date()));;
 		System.out.println(DatetimeFunction.ftd(new Date()));;
 		System.out.println(DatetimeFunction.ftt(new Date()));;
